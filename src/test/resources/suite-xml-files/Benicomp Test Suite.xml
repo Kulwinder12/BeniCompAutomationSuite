@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Benicomp Test Suite">
+  <test name="Home-Tests">
+    <groups>
+      <run>
+        <exclude name="broken"/>
+      </run>
+    </groups>
+
+    <classes>
+    <class name="Benicomp.Tests.Home.BCP004_Test"/>
+    <class name="Benicomp.Tests.Home.BCP005_Test"/>
+    <class name="Benicomp.Tests.Home.BCP006_Test"/>
+      <class name="Benicomp.Tests.Home.BCP001_Test"/>
+      <class name="Benicomp.Tests.Home.BCP007_Test"/>
+    </classes>
+  </test> <!-- Home-Tests -->
+</suite> <!-- Benicomp Test Suite -->
